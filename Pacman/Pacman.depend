@@ -1,0 +1,108 @@
+# depslib dependency file v1.0
+1672654397 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/main.cpp
+	<array>
+	<chrono>
+	<ctime>
+	<SFML/Graphics.hpp>
+	"Global.h"
+	"DrawText.h"
+	"Pacman.h"
+	"Ghost.h"
+	"GhostManager.h"
+	"ConvertSketch.h"
+	"DrawMap.h"
+	"MapCollision.h"
+
+1672256019 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/Engine.h
+	"SFML/Graphics.hpp"
+	"StatMNG.h"
+
+1672241511 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/src/Engine.cpp
+	"Engine.h"
+
+1672257647 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/StatMNG.h
+	<stack>
+	"GameST.h"
+
+1672242156 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/GameST.h
+	<SFML/Graphics.hpp>
+
+1672257599 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/src/GameST.cpp
+	"GameST.h"
+
+1672257657 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/src/PlayingState.cpp
+	"PlayingState.h"
+
+1672257412 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/PlayingState.h
+	"GameST.h"
+
+1672654319 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/src/MapCollision.cpp
+	<array>
+	<cmath>
+	"Global.h"
+	"MapCollision.h"
+
+1672446522 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/Global.h
+
+1672654285 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/MapCollision.h
+	<array>
+
+1672654165 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/src/DrawMap.cpp
+	<array>
+	<SFML/Graphics.hpp>
+	"Global.h"
+	"DrawMap.h"
+
+1672654248 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/DrawMap.h
+
+1672654252 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/DrawText.h
+	<SFML/Graphics.hpp>
+
+1672654280 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/Pacman.h
+	"Global.h"
+	"MapCollision.h"
+	<array>
+	<cmath>
+	<SFML/Graphics.hpp>
+
+1672654260 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/Ghost.h
+	"Global.h"
+	"Pacman.h"
+	"MapCollision.h"
+	<array>
+	<cmath>
+	<SFML/Graphics.hpp>
+
+1672654264 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/GhostManager.h
+	<array>
+	<cmath>
+	<SFML/Graphics.hpp>
+	"Global.h"
+	"Pacman.h"
+	"Ghost.h"
+
+1672654244 /home/alyabdillah/Documents/Prog/C++/Game/Pacman/include/ConvertSketch.h
+	"Global.h"
+	"Pacman.h"
+	<array>
+	<string>
+	<SFML/Graphics.hpp>
+
+1672654179 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/src/DrawText.cpp
+	"DrawText.h"
+	<cmath>
+	<SFML/Graphics.hpp>
+	"Global.h"
+
+1672654202 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/src/GhostManager.cpp
+	"GhostManager.h"
+
+1672446336 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/src/ConvertSketch.cpp
+	"ConvertSketch.h"
+
+1672654186 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/src/Ghost.cpp
+	"Ghost.h"
+
+1672654222 source:/home/alyabdillah/Documents/Prog/C++/Game/Pacman/src/Pacman.cpp
+	"Pacman.h"
+

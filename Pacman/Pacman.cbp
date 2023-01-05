@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pacman" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Pacman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Pacman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/ConvertSketch.h" />
+		<Unit filename="include/DrawMap.h" />
+		<Unit filename="include/DrawText.h" />
+		<Unit filename="include/Ghost.h" />
+		<Unit filename="include/GhostManager.h" />
+		<Unit filename="include/Global.h" />
+		<Unit filename="include/MapCollision.h" />
+		<Unit filename="include/Pacman.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="res/Images/Font.png" />
+		<Unit filename="res/Images/Ghost16.png" />
+		<Unit filename="res/Images/Map16.png" />
+		<Unit filename="res/Images/Pacman16.png" />
+		<Unit filename="res/Images/PacmanDeath16.png" />
+		<Unit filename="src/ConvertSketch.cpp" />
+		<Unit filename="src/DrawMap.cpp" />
+		<Unit filename="src/DrawText.cpp" />
+		<Unit filename="src/Ghost.cpp" />
+		<Unit filename="src/GhostManager.cpp" />
+		<Unit filename="src/MapCollision.cpp" />
+		<Unit filename="src/Pacman.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
